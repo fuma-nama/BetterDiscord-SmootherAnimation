@@ -1,5 +1,5 @@
 # BetterDiscord-SmootherAnimation
-Discord doesn't have any animation in some places so I made this theme
+Discord doesn't have animation in some places so I made this theme
 ## added animation to:
 1. message panel
 1. message boxes
