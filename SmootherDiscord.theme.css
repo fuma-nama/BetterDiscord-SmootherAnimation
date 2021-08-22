@@ -1,0 +1,267 @@
+/**
+* @name Smooth Discord - MONEY
+* @author MONEY
+* @authorLink https://youtu.be/dQw4w9WgXcQ
+* @version 1.0
+* @description Add more animations to discord
+*/
+
+:root {
+  --background-message-hover: rgba(156, 156, 156, 0.07);
+}
+
+/* messages */
+.messagesWrapper-1sRNjr {
+  /* you can chnage "openChannel" to "openPopup" */
+  animation-name: openChannel;
+  animation-duration: 1.3s;
+}
+
+#app-mount .message-2qRu38 {
+  transition: all 0.3s;
+  animation-name: showMessage;
+  animation-duration: 0.5s;
+  padding-right: 48px !important;
+  border-radius: 10px;
+}
+
+#app-mount .message-2qnXI6 {
+  transition: all 0.3s;
+  animation-name: showMessage;
+  animation-duration: 0.5s;
+  padding-right: 48px !important;
+  border-radius: 10px;
+}
+
+#app-mount .message-2qnXI6.selected-2P5D_Z {
+  background-color: var(--background-message-hover);
+}
+#app-mount .message-2qnXI6:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  background-color: var(--background-message-hover);
+}
+
+.channelTextArea-3bF57p {
+  animation-name: openChannel;
+  animation-duration: 1s;
+}
+
+/* thread panel */
+.threadSidebar-1o3BTy {
+  animation-name: openThread;
+  animation-duration: 0.5s;
+}
+
+/* voice channel */
+.list-2luk8a {
+  animation-name: openChannel;
+  animation-duration: 0.5s;
+}
+
+.wrapper-2qzCYF {
+  animation-name: openChannel;
+  animation-duration: 0.5s;
+}
+
+/* loddy */
+
+.container-24CyRY {
+  animation-name: openChannel;
+  animation-duration: 0.5s;
+}
+
+.tabBody-3YRQ8W {
+  animation-name: openChannel;
+  animation-duration: 0.5s;
+}
+
+.scroller-9moviB {
+  animation-name: openChannel;
+  animation-duration: 0.5s;
+}
+
+/* settings menu (Only buttons bec I'm lazy) */
+.side-8zPYf6 .item-PXvHYJ {
+  transition: all 0.5s;
+}
+
+/* right click menu */
+.menu-3sdvDG {
+  animation-name: openPopup;
+  animation-duration: 0.5s;
+}
+
+.labelContainer-1BLJti {
+  transition: all 0.3s;
+}
+
+/* dialog */
+.browser-2NpbWS {
+  animation-name: openDialog;
+  animation-duration: 0.5s;
+}
+
+.messagesPopoutWrap-1MQ1bW {
+  animation-name: openPopup;
+  animation-duration: 1s;
+}
+
+/* list item */
+.scroller-RmtA4e {
+  animation-name: openChannel;
+  animation-duration: 0.8s;
+}
+
+.members-1998pB {
+  animation-name: openPopup;
+  animation-duration: 0.8s;
+}
+
+.channel-2QD9_O {
+  transition: all 0.3s;
+  position: relative;
+  max-width: 224px;
+  margin-left: 8px;
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+  animation-name: ckickItem;
+  animation-duration: 0.4s;
+  background-color: var(--background-modifier-selected);
+}
+
+/* members list */
+
+.member-3-YXUe {
+  transition: all 0.3s;
+}
+
+.member-3-YXUe:hover {
+  background-color: var(--background-modifier-selected);
+}
+
+/* User Profile */
+
+.full-motion .translate-2dAEQ6.animatorLeft-1EQxU0 {
+  animation-name: openPopup;
+  animation-duration: 0.4s;
+}
+
+.full-motion .translate-2dAEQ6.animatorRight-3i_YPs {
+  animation-name: openPopup;
+  animation-duration: 0.4s;
+}
+
+/* channel list */
+
+.content-1x5b-n {
+  transition: all 0.3s;
+}
+
+.modeSelected-346R90 .content-1x5b-n,
+.modeSelected-346R90:hover .content-1x5b-n {
+  animation-name: ckickItem;
+  animation-duration: 0.4s;
+}
+
+.content-1x5b-n:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+/* gif/emoji menu */
+.contentWrapper-SvZHNd {
+  animation-name: openPopup;
+  animation-duration: 0.4s;
+}
+
+.emojiPicker-3PwZFl {
+  animation-name: openChannel;
+  animation-duration: 0.4s;
+}
+
+.wrapper-2iFQJ9 {
+  animation-name: openChannel;
+  animation-duration: 0.4s;
+}
+
+@keyframes openChannel {
+  from {
+    opacity: 0;
+    transform: rotateX(-90deg);
+    transition: all 0.5s cubic-bezier(0.36, -0.64, 0.34, 1.76);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    transition: all 0.5s cubic-bezier(0.36, -0.64, 0.34, 1.76);
+  }
+}
+
+@keyframes ckickItem {
+  50% {
+    padding-left: +10%;
+  }
+  51% {
+    padding-left: -10%;
+  }
+}
+
+@keyframes showMessage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openPopup {
+  from {
+    opacity: 0;
+    transform: rotateY(-90deg);
+    transition: all 0.5s cubic-bezier(0.36, -0.64, 0.34, 1.76);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    transition: all 0.5s cubic-bezier(0.36, -0.64, 0.34, 1.76);
+  }
+}
+
+@keyframes openDialog {
+  from {
+    max-width: 0;
+    max-height: 0;
+    min-width: 0;
+    min-height: 0;
+    width: 0;
+  }
+  to {
+    max-width: 600px;
+    max-height: 80vh;
+    width: 35vw;
+  }
+}
+
+@keyframes openThread {
+  from {
+    opacity: 0;
+    transform: rotateY(-50deg);
+    transition: all 0.5s cubic-bezier(0.36, -0.64, 0.34, 1.76);
+    min-width: 240px;
+    width: 240px;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    transition: all 0.5s cubic-bezier(0.36, -0.64, 0.34, 1.76);
+    min-width: 400px;
+    width: 29vw;
+  }
+}
