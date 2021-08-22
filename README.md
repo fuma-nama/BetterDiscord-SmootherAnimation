@@ -10,4 +10,4 @@ Discord doesn't have animation in some places so I made this theme
 1. pinned messages dialog
 1. gifs, stickers and emoji panel
 1. right-click menu
-1. user profile
+1. user profile dialog
