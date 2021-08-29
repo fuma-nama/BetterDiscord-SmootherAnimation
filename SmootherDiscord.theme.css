@@ -1,5 +1,5 @@
 /**
-* @name Smooth Discord - MONEY
+* @name Smoother Discord
 * @author MONEY
 * @version 1.0
 * @description Add more animations to discord
@@ -11,7 +11,6 @@
 
 /* messages */
 .messagesWrapper-1sRNjr {
-  /* you can chnage "openChannel" to "openPopup" */
   animation-name: openChannel;
   animation-duration: 1.3s;
 }
@@ -82,7 +81,11 @@
   animation-duration: 0.5s;
 }
 
-/* settings menu (Only buttons bec I'm lazy) */
+/* settings menu */
+.contentColumn-2hrIYH > div {
+  animation-name: showMessage;
+  animation-duration: 0.7s;
+}
 .side-8zPYf6 .item-PXvHYJ {
   transition: all 0.5s;
 }
@@ -114,11 +117,6 @@
   animation-duration: 0.8s;
 }
 
-.members-1998pB {
-  animation-name: openPopup;
-  animation-duration: 0.8s;
-}
-
 .channel-2QD9_O {
   transition: all 0.3s;
   position: relative;
@@ -136,11 +134,14 @@
 
 .member-3-YXUe {
   transition: all 0.3s;
+  
 }
+
 
 .member-3-YXUe:hover {
   background-color: var(--background-modifier-selected);
 }
+
 
 /* User Profile */
 
@@ -212,10 +213,10 @@
 }
 
 @keyframes showMessage {
-  0% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
