@@ -4,7 +4,7 @@ Discord doesn't have animation in some places so I made this theme
 1. message panel
 1. message boxes
 1. voice panel
-1. member list
+1. firends list
 1. channel list
 1. create thread dialog
 1. pinned messages dialog
